@@ -1,0 +1,174 @@
+body{
+  margin: 72.5px 0 0 0;
+
+  font-family: 'Inter', sans-serif;
+
+
+}
+h1,h2,h3{
+  font-family: 'Lobster', cursive;
+}
+
+.navbar{
+  padding: 0 15%;
+background-color: #eaac7f;
+
+}
+.nav-link{
+  font-size: 24px;
+  font-family: 'Bebas Neue', cursive;
+  color: #493323;
+}
+.active{
+  color: #493323 !important;
+}
+/* Annoc */
+.navbar-text{
+  font-family: 'Playfair Display SC', serif;
+  margin: 0 auto;
+  color: #fff !important;
+  font-size: 14px;
+}
+/* Category */
+.stage{
+  text-align: center;
+
+
+}
+#category{
+  padding: 15px 15%;
+  text-align: center;
+}
+#category .container-fluid{
+
+ margin-left: 190px;
+ margin-right: 0px;
+}
+#category p{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 20px;
+}
+#category .col-md-3{
+  padding: 0;
+border: solid 2px;
+border-radius: 30px;
+border-color: #e3d0b9;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+#category img{
+  transform: scale(0.9);
+}
+#category img:hover{
+  transform: scale(1.1);
+  margin-bottom: 20px;
+  border-radius: 100px;
+}
+#category .left{
+  position: absolute;
+  left: 1%;
+  display: inline;
+  background: url(../images/left.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  width:  417px;
+}
+#category .right{
+  position: absolute;
+  right: 1%;
+  display: inline;
+  background: url(../images/right.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  width:  417px;
+}
+/* Features */
+#features{
+  margin: 20px 0;
+  padding: 15px 15%;
+  text-align: center;
+  background-color: #fcf8e8;
+}
+#features h1,h2{
+    font-family: 'Bebas Neue', cursive;
+}
+#features h3{
+  font-family: 'Truculenta', sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+#features .row{
+  margin: 25px 0;
+  }
+#features img{
+  height: 75px;
+}
+/* Testimonials */
+#test .container{
+  text-align: center;
+}
+#test img{
+  width: 81px;
+  height: 81px;
+  border-radius: 50px;
+}
+#test h3{
+  font-family: 'Truculenta', sans-serif;
+  margin: 10px 0;
+}
+#test p{
+  padding: 0 60px;
+}
+/* partner */
+#partner{
+  background-color: #fcf8e8;
+  text-align: center;
+}
+#partner .container{
+  padding: 20px 15px;
+}
+/* Footer */
+#footer{
+  background-color: #eaac7f;
+}
+#footer .container{
+  padding: 20px 0;
+}
+#footer h3{
+  font-family: 'Bebas Neue', cursive;
+}
+#footer a{
+  color: #493323;
+}
+.btn{
+  position: absolute;
+  top: 73%;
+  left: 18%;
+}
+/* Social */
+#social p{
+  text-align: center;
+  font-style: 16px;
+
+}
+#social i{
+  margin: 0 10px;
+}
+#social i:hover{
+  margin: 0 10px;
+  delay: 2;
+  color: #fff;
+}
+/* Copy */
+#copyright{
+  background-color: #493323;
+  text-align: center;
+
+}
+
+#copyright span{
+  color: #fff;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+}
